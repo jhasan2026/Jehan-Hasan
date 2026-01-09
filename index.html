@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jehan Hasan | Portfolio + Research</title>
+  <meta name="description" content="Portfolio with Research Papers segment" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Background -->
+  <div class="bg">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="grid"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <img src="jehan.jpg" style="height: 45px; width: 45px; border-radius: 8px;" alt="profile pic">
+
+        <span class="brand-text">
+          <b>Jehan Hasan</b>
+          <small>CSE • Full-Stack • ML</small>
+        </span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#stack">Stack</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <p class="kicker">👋 Hi, I’m Jehan — building software & exploring applied AI.</p>
+        <h1>
+          A clean, modern <span class="grad">portfolio</span><br/>
+          with a <span class="grad2">research</span> segment.
+        </h1>
+        <p class="sub">
+          CSE student at United International University (2022–2026). I build full-stack apps
+          using Django/React and experiment with machine learning using scikit-learn / PyTorch.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">See Projects</a>
+          <a class="btn" href="#research">View Research</a>
+          <a class="btn ghost" href="mailto:jhasan2026@gmail.com">Email</a>
+        </div>
+
+        <div class="hero-metrics">
+          <div class="metric">
+            <span class="m-top">CGPA</span>
+            <span class="m-val">3.93 / 4.00</span>
+          </div>
+          <div class="metric">
+            <span class="m-top">Focus</span>
+            <span class="m-val">Full-Stack + ML</span>
+          </div>
+          <div class="metric">
+            <span class="m-top">Tools</span>
+            <span class="m-val">Git / GitHub</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-right">
+        <div class="card profile">
+          <div style="border-radius: 5px; height: 85px; width: 85px;">
+            <img src="jehan.jpg" style="height: 85px; width: 85px; border-radius: 12px;"  alt="profile pic">
+          </div>
+          
+          <div class="p-meta">
+            <h2>Jehan Hasan</h2>
+            <p>Computer Science Student</p>
+          </div>
+
+          <div class="p-links">
+            <a href="mailto:jhasan2026@gmail.com">jhasan2026@gmail.com</a>
+            <a href="tel:+8801646456244">+8801646456244</a>
+            <a href="https://github.com/jhasan2026" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/jehan-hasan-062632269/" target="_blank" rel="noreferrer">Linkdin</a>
+          </div>
+
+          <div class="p-badges">
+            <span class="badge">Django</span>
+            <span class="badge">React</span>
+            <span class="badge">ML</span>
+            <span class="badge">MySQL</span>
+          </div>
+        </div>
+
+        <div class="card note">
+          <h3>Now</h3>
+          <p>
+            Improving full-stack engineering skills, shipping projects, and writing short research-style reports
+            on ML experiments (reproducibility + evaluation).
+          </p>
+        </div>
+      </aside>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="section-head">
+        <h2>About</h2>
+        <p>
+          I enjoy building real products and documenting experiments. I care about clean UI,
+          readable code, and measurable results.
+        </p>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>What I do</h3>
+          <ul class="list">
+            <li>Full-stack apps (Django / React / PHP / Next.js)</li>
+            <li>Databases (SQLite3, MySQL)</li>
+            <li>ML experiments (scikit-learn, TensorFlow/Keras, PyTorch)</li>
+            <li>Version control (Git, GitHub)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Highlights</h3>
+          <div class="highlights">
+            <div class="hi">
+              <span class="dot ok"></span>
+              <div>
+                <b>Scholarships</b>
+                <p>100% & 50% academic scholarship.</p>
+              </div>
+            </div>
+            <div class="hi">
+              <span class="dot a"></span>
+              <div>
+                <b>Math Talent Probe</b>
+                <p>Rank 390 (Global Mathematical Talent Probe 2017/18).</p>
+              </div>
+            </div>
+            <div class="hi">
+              <span class="dot b"></span>
+              <div>
+                <b>Projects shipped</b>
+                <p>Tour, nutrition, and real-estate collaboration platforms.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stack -->
+    <section class="section" id="stack">
+      <div class="section-head">
+        <h2>Tech Stack</h2>
+        <p>A quick overview of tools I commonly use.</p>
+      </div>
+
+      <div class="stack">
+        <div class="pill">C / C++</div>
+        <div class="pill">Java</div>
+        <div class="pill">Python</div>
+        <div class="pill">HTML5</div>
+        <div class="pill">CSS3</div>
+        <div class="pill">JavaScript</div>
+        <div class="pill">TypeScript</div>
+        <div class="pill">React</div>
+        <div class="pill">Tailwind</div>
+        <div class="pill">Django</div>
+        <div class="pill">Laravel</div>
+        <div class="pill">Next.js</div>
+        <div class="pill">PHP</div>
+        <div class="pill">SQLite3</div>
+        <div class="pill">MySQL</div>
+        <div class="pill">Scikit-learn</div>
+        <div class="pill">TensorFlow</div>
+        <div class="pill">Keras</div>
+        <div class="pill">PyTorch</div>
+        <div class="pill">Git</div>
+        <div class="pill">GitHub</div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p>Click a project to view details in a modal.</p>
+      </div>
+
+      <div class="cards3">
+        <article class="card project" data-title="Melodia Academy" data-tags="Laravel, SQLite3, JavaScript, Tailwind"
+          data-desc="A web-based musical institution management system that helps people plan travel with packages based on budget, places, and participants."
+          data-points="Musical institution management platform;Secure planning UI;SQLite3-backed system"
+        >
+          <div class="top">
+            <h3>Melodia Academy</h3>
+            <span class="chip">Web App</span>
+          </div>
+          <p class="muted">Musical institution management platform (Laravel + SQLite3).</p>
+          <div class="mini-tags">
+            <span>PHP</span><span>MySQL</span><span>JS</span>
+          </div>
+          <button class="link">View details →</button>
+        </article>
+
+        <article class="card project" data-title="NutriPick" data-tags="Django, SQLite3, Tailwind, Scikit-learn"
+          data-desc="Personalized nutrition management system that generates daily meal plans and exercise plans based on user needs."
+          data-points="Meal plan generator;Exercise plan generator;ML-based recommendations"
+        >
+          <div class="top">
+            <h3>NutriPick</h3>
+            <span class="chip">ML + Web</span>
+          </div>
+          <p class="muted">Nutrition planner with ML features.</p>
+          <div class="mini-tags">
+            <span>Django</span><span>SQLite</span><span>ML</span>
+          </div>
+          <button class="link">View details →</button>
+        </article>
+
+        <article class="card project" data-title="BuildIT" data-tags="Django, SQLite3, Tailwind, Collaboration"
+          data-desc="A collaboration platform for real-estate developers, builders, and workers to manage projects and find jobs."
+          data-points="Project collaboration;Worker job discovery;Builder project management"
+        >
+          <div class="top">
+            <h3>BuildIT</h3>
+            <span class="chip">Platform</span>
+          </div>
+          <p class="muted">Real-estate collaboration & workflow.</p>
+          <div class="mini-tags">
+            <span>Django</span><span>Tailwind</span><span>Platform</span>
+          </div>
+          <button class="link">View details →</button>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="section" id="projects">
+      <div class="cards3">
+        <article class="card project" data-title="Explore Plus" data-tags="PHP, MySQL, JavaScript, CSS"
+          data-desc="A web-based tour management system that helps people plan travel with packages based on budget, places, and participants."
+          data-points="Tour package filtering;Secure planning UI;MySQL-backed system"
+        >
+          <div class="top">
+            <h3>Explore Plus</h3>
+            <span class="chip">Web App</span>
+          </div>
+          <p class="muted">Tour management platform (PHP + MySQL).</p>
+          <div class="mini-tags">
+            <span>PHP</span><span>MySQL</span><span>JS</span>
+          </div>
+          <button class="link">View details →</button>
+        </article>
+
+        
+      </div>
+    </section>
+
+
+
+    <!-- Research -->
+    <section class="section" id="research">
+      <div class="section-head">
+        <h2>Research Papers</h2>
+        <p>
+          A research segment with filters. These are <b>dummy/sample papers</b> you can replace with your real work later.
+        </p>
+      </div>
+
+      <div class="research-controls card">
+        <div class="ctrl">
+          <label for="paperSearch">Search</label>
+          <input id="paperSearch" type="text" placeholder="Search title, keywords, venue..." />
+        </div>
+
+        <div class="ctrl">
+          <label for="paperYear">Year</label>
+          <select id="paperYear">
+            <option value="all">All</option>
+            <option value="2026">2026</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+          </select>
+        </div>
+
+        <div class="ctrl row">
+          <label class="check">
+            <input type="checkbox" id="onlyML" />
+            <span>Only ML papers</span>
+          </label>
+          <button class="btn small" id="resetFilters" type="button">Reset</button>
+        </div>
+      </div>
+
+      <div class="paper-list" id="paperList">
+        <!-- Paper 1 -->
+        <article class="paper card"
+          data-year="2026"
+          data-ml="true"
+          data-keywords="recommendation, nutrition, classification"
+        >
+          <div class="paper-top">
+            <h3>NutriPick: Lightweight Meal Recommendation with Feature-Aware Modeling</h3>
+            <span class="venue">Preprint • 2026</span>
+          </div>
+          <p class="authors"><b>Jehan Hasan</b>, Co-author A, Co-author B</p>
+          <p class="muted">
+            Keywords: recommendation, nutrition, classification • Dataset: synthetic + user logs (simulated)
+          </p>
+
+          <button class="toggle-abs" type="button">Show abstract</button>
+          <div class="abstract" hidden>
+            <p>
+              We explore a lightweight recommendation approach for daily meal planning using feature-aware modeling.
+              The system combines nutrition targets and constraints, producing practical meal suggestions.
+              We report improvements over a baseline heuristic using offline evaluation metrics (precision@k, coverage).
+            </p>
+          </div>
+
+          <div class="paper-actions">
+            <a class="btn small ghost" href="#" onclick="return false;">PDF (Dummy)</a>
+            <a class="btn small" href="#" onclick="return false;">Code (Dummy)</a>
+            <a class="btn small" href="#" onclick="return false;">Cite</a>
+          </div>
+        </article>
+
+        <!-- Paper 2 -->
+        <article class="paper card"
+          data-year="2025"
+          data-ml="true"
+          data-keywords="tourism, forecasting, clustering"
+        >
+          <div class="paper-top">
+            <h3>ExplorePlus: Demand-Aware Tour Package Ranking using Simple Forecasting</h3>
+            <span class="venue">Workshop Submission • 2025</span>
+          </div>
+          <p class="authors"><b>Jehan Hasan</b>, Co-author C</p>
+          <p class="muted">
+            Keywords: tourism, forecasting, clustering • Focus: ranking tour packages by predicted demand
+          </p>
+
+          <button class="toggle-abs" type="button">Show abstract</button>
+          <div class="abstract" hidden>
+            <p>
+              This paper proposes a simple demand-aware ranking method for tour package recommendation.
+              We combine seasonal signals with user preference categories and evaluate ranking consistency over time.
+              The method is designed to be easy to implement in typical LAMP-style web applications.
+            </p>
+          </div>
+
+          <div class="paper-actions">
+            <a class="btn small ghost" href="#" onclick="return false;">PDF (Dummy)</a>
+            <a class="btn small" href="#" onclick="return false;">Slides (Dummy)</a>
+          </div>
+        </article>
+
+        <!-- Paper 3 -->
+        <article class="paper card"
+          data-year="2024"
+          data-ml="false"
+          data-keywords="software engineering, collaboration, workflow"
+        >
+          <div class="paper-top">
+            <h3>BuildIT: A Collaboration-First Workflow for Small Builder Teams</h3>
+            <span class="venue">Technical Report • 2024</span>
+          </div>
+          <p class="authors"><b>Jehan Hasan</b></p>
+          <p class="muted">
+            Keywords: software engineering, collaboration, workflow • Focus: requirements + UX + system design
+          </p>
+
+          <button class="toggle-abs" type="button">Show abstract</button>
+          <div class="abstract" hidden>
+            <p>
+              We present a collaboration-first workflow model for small builder teams and outline a platform design
+              supporting task tracking, file sharing, and job discovery. The report includes UX decisions, database design,
+              and a modular backend architecture that scales with small teams.
+            </p>
+          </div>
+
+          <div class="paper-actions">
+            <a class="btn small ghost" href="#" onclick="return false;">PDF (Dummy)</a>
+            <a class="btn small" href="#" onclick="return false;">Design Doc (Dummy)</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Let’s connect for internships, collaboration, or project work.</p>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Details</h3>
+          <div class="contact">
+            <a href="mailto:jhasan2026@gmail.com">Email: jhasan2026@gmail.com</a>
+            <a href="tel:+8801646456244">Phone: +8801646456244</a>
+            <a href="https://github.com/jhasan2026" target="_blank" rel="noreferrer">GitHub: @jhasan2026</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Message (Demo)</h3>
+          <form class="form" id="contactForm">
+            <label>
+              <span>Name</span>
+              <input required placeholder="Your name" />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" required placeholder="your@email.com" />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea required rows="5" placeholder="Write your message..."></textarea>
+            </label>
+            <button class="btn primary" type="submit">Send</button>
+            <p class="tiny muted">This form shows UI only. Connect it to a backend later.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Jehan Hasan • Portfolio + Research</p>
+      <a href="#top" class="to-top">Back to top ↑</a>
+    </footer>
+  </main>
+
+  <!-- Project Modal -->
+  <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-label="Project details">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-card" role="document">
+      <button class="modal-x" id="modalClose" aria-label="Close">✕</button>
+      <h3 id="mTitle">Title</h3>
+      <p class="muted" id="mTags"></p>
+      <p id="mDesc"></p>
+      <ul class="list" id="mPoints"></ul>
+      <div class="modal-actions">
+        <a class="btn small primary" href="#" onclick="return false;">GitHub (Add Link)</a>
+        <a class="btn small" href="#" onclick="return false;">Live Demo (Optional)</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
